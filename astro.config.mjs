@@ -7,8 +7,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/astro-flow-blog-theme', // Netlify에서 배포한 URL
-  site: "https://dawidryczko.github.io/astro-flow-blog-theme/",
+  base: '/', // Netlify에서 배포한 URL
+  site: "https://nyung.netlify.app/",
   integrations: [mdx(), sitemap()],
   vite: {
     plugins: [tailwindcss()],
